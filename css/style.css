@@ -1,18 +1,87 @@
+/*CSS DOCUMENT for Screens */
+
+#page { max-width: 1200px; margin: 0 auto; position: relative; }
+
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight:bold;
+  font-style:normal;
+  line-height: 1.2;
+  line-height: 75%;
+  line-height: 2em;
+  line-height: normal;
+}
+header figure.figcaption {
+  font-family:Helvetica;
+  font-size: 10px;
+  font-weight:200;
+}
+
+p{
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 1.2;
+  line-height: 75%;
+  line-height: 2em;
+  line-height: normal;
+}
+
+.author {
+  font-family: Helvetica;
+  font-size: 16px;
+  text-transform: lowercase;
+  font-weight:bold;
+}
+
+h3{
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight:100;
+  font-style:italic;
+  line-height: 1.2;
+  line-height: 75%;
+  line-height: 2em;
+  line-height: normal;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
-  float: left;
-  position: fixed;
+  background-color: rgba(0,0,0,.65);
+  position:absolute;
+  top: 0px; left: 0px;
+  padding: 50px 0 0 0;
   width: 100%;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: normal;
 }
 
-.logo {
-  margin: 20px;
-  width: 100px;
+.figcaption:target {
+  font-family:Helvetica;
+  font-size: 10px;
+  font-weight:400;
+}
+
+nav .left {
+  z-index: 1;
+  position: absolute;
+  display: block; width: 160px; height: 66px;
+  background: url('../images/bloc-logo.png') no-repeat 0 0; background-size:contain;
+  top: 15px; left: 20px;
+
+}
+
+header.figure {
+  height: 430px;
+  background-image: url('../images/instagram-pic.jpg') no-repeat center bottom;
+  position: relative;
 }
 
 .large-pic {
@@ -41,6 +110,17 @@ li {
   float: right;
   padding: 30px;
 }
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  position:relative;
+}
+
+a:link {color:#ffffff; } /*Unvisited*/
+a:visited {color:#0070BA; } /*visted*/
+a:hover {color: #0070BC; } /*mouse over*/
+
 
 article {
   padding-top: 100px;

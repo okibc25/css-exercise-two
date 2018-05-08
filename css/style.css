@@ -63,24 +63,18 @@ nav {
   font-weight: normal;
 }
 
-.figcaption:target {
-  font-family:Helvetica;
-  font-size: 10px;
-  font-weight:400;
-}
-
 nav .left {
   z-index: 1;
   position: absolute;
   display: block; width: 160px; height: 66px;
-  background: url('../images/bloc-logo.png') no-repeat 0 0; background-size:contain;
+  background: url('../../images/bloc-logo.png') no-repeat 0 0; background-size:contain;
   top: 15px; left: 20px;
 
 }
 
 header.figure {
   height: 430px;
-  background-image: url('../images/instagram-pic.jpg') no-repeat center bottom;
+  background-image: url('../../images/instagram-pic.jpg') no-repeat center bottom;
   position: relative;
 }
 
@@ -120,6 +114,13 @@ a {
 a:link {color:#ffffff; } /*Unvisited*/
 a:visited {color:#0070BA; } /*visted*/
 a:hover {color: #0070BC; } /*mouse over*/
+
+.figcaption:target {
+  font-family:Helvetica;
+  font-size: 10px;
+  font-weight:400;
+}
+
 
 
 article {

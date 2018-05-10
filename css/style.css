@@ -115,14 +115,6 @@ a:link {color:#ffffff; } /*Unvisited*/
 a:visited {color:#0070BA; } /*visted*/
 a:hover {color: #0070BC; } /*mouse over*/
 
-.figcaption:target {
-  font-family:Helvetica;
-  font-size: 10px;
-  font-weight:400;
-}
-
-
-
 article {
   padding-top: 100px;
 }

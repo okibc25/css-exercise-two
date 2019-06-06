@@ -1,2 +1,2 @@
 # css-exercise-two
-Assignment for Fundamentals
+Learning the fundamentals of html and css 
